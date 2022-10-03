@@ -1,0 +1,89 @@
+
+body{
+     background-color: hsl(30, 38%, 92%); 
+}
+.img{
+     height: 450px;
+     width: 300px;
+     border-radius: 8px 0 0 8px;
+}
+
+
+.content{
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 0;
+     flex-grow: 1;
+     
+}
+.image{
+     flex-grow: 1;
+     
+}
+h5{
+     display: inline;
+     word-spacing: 50px;
+}
+.perfume{
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     color:  hsl(228, 12%, 48%);
+     font-family: 'Montserrat',sans-serif;
+     font-weight: 500;
+     font-size: small;
+}
+.gabriel{
+     font-size: xx-large;
+     text-transform: capitalize;
+     font-family: 'Fraunces',sans-serif;
+     font-weight: bolder;
+     font-size: xx-large;
+}
+p{
+     color:  hwb(228 42% 46%);
+     font-size: 14px;
+     font-family: 'Montserrat',sans-serif ;
+     font-weight: 700;
+     font-size: medium;
+     top: 10px;
+}
+ h5.big{
+     color:  hsl(158, 36%, 37%);
+     font-size: xx-large;
+     font-family: 'Fraunces',sans-serif;
+     font-weight: bolder;
+
+
+}
+h5.small{
+     text-decoration: line-through;
+     color:  hsl(228, 12%, 48%);
+     font-family: 'Montserrat';
+     padding-left: 30px;
+     top: 10px;
+}
+.link{
+     background-color: hsl(158, 36%, 37%) ;
+     width: 200px;
+     font-size: medium;
+     padding: 15px;
+     margin-top: 15px;
+     border-radius: 8px;
+     text-align: center;
+
+}
+.challenge{
+     display: flex;
+     background-color: white;
+     width: 600px;
+     margin: 400px;
+     height: 450px;
+     border-radius: 0 8px 8px 0;
+     flex-direction: row;
+}
+a{
+     color: white;
+     text-decoration: none;
+     font-family: 'Montserrat';
+     font-weight: bold;
+}
